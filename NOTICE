@@ -1,0 +1,18 @@
+NOTICE
+
+search/data/4x4x4_48_204_{L,R,P}.slp are unmodified copies of
+data/4x4x4_48_204_{L,R,P}.slp from PLinOpt (https://github.com/jgdumas/plinopt),
+by Jean-Guillaume Dumas, Bruno Grenet, Clement Pernet and Alexandre Sedoglavic,
+distributed under the CeCILL-B licence (copy in LICENSES/CeCILL-B.txt).
+These files are provided without warranty; the warranty and liability
+limitations of CeCILL-B (Articles 8 and 9) apply.
+
+The 202- and 203-operation circuits, the 84-operation 16ALT P core, and the
+other circuit files in this repository are modified versions based on PLinOpt
+data and on the scheme of Dumas, Pernet, Sedoglavic, Stapleton and Tichavsky
+("Fast matrix multiplication via recursive <4x4x4:48> algorithms into
+practice", arXiv:2609.12027). Credit to PLinOpt is given here as required by
+CeCILL-B Article 5.3.4; these files are distributed under CeCILL-B.
+
+The original code in this repository (search/*.py, check_alt_core.py,
+matmul_4x4_48mult_202ops.py) is released under CC0 / public domain.

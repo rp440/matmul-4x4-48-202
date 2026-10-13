@@ -19,7 +19,8 @@ belongs to those authors.
 | leading constant, 16ALT variant | 205/32 | 1 + (44 + 44 + 84)/32 = 51/8 |
 
 Cost model: each binary addition or subtraction costs 1, each scaling by a
-constant other than +1 or -1 costs 1 (the halvings here), copies are free.
+constant other than +1 or -1 costs 1 (the halvings here), an explicit negation
+costs 1, copies are free.
 The 202 circuit uses 54 additions/subtractions plus 2 halvings in each of L and
 R, and 90 additions/subtractions in P. It needs 1/2 in the coefficient ring.
 
@@ -65,4 +66,4 @@ was checked exactly against the matrix multiplication tensor.
 
 ## License
 
-Circuits and code released under CC0 / public domain.
+Original code in this repository is released under CC0 / public domain. Circuit files copied from or derived from PLinOpt are distributed under the CeCILL-B licence; see NOTICE and LICENSES/CeCILL-B.txt.
